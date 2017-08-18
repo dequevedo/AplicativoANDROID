@@ -2,47 +2,29 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:id="@+id/group_1" >
-        <item android:title="Titulooo"
-            android:id="@+id/nav_Item"
+    <group android:id="@+id/group_home" >
+        <item android:title="Home"
+            android:id="@+id/nav_home"
             android:icon="@mipmap/ic_launcher" />
-        <item android:title="Batata"
-            android:id="@+id/nav_batata"
-            android:icon="@drawable/ic_search_black_24dp" />
     </group>
     <group android:checkableBehavior="single"
-        android:id="@+id/group_2">
-        <menu />
+        android:id="@+id/group_resources">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_grades"
-            android:title="Notas" />
+            android:id="@+id/nav_materias"
+            android:icon="@drawable/ic_materias"
+            android:title="Matérias" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_faltas"
-            android:title="Faltas" />
+            android:id="@+id/nav_calendario"
+            android:icon="@drawable/ic_calendario"
+            android:title="Calendário" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_avisos"
-            android:title="Avisos" />
+            android:id="@+id/nav_grade"
+            android:icon="@drawable/ic_grade"
+            android:title="Grade" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Arquivos" />
+            android:id="@+id/nav_lembretes"
+            android:icon="@drawable/ic_lembretes"
+            android:title="Lembretes" />
     </group>
-
-    <item android:title="Doidera"
-        android:id="@+id/group_2">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
 
 </menu>
