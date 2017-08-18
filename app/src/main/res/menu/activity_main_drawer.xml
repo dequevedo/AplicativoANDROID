@@ -2,21 +2,17 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-
-    <item android:title="Titulo">
-        <menu>
-            <item
-                android:id="@+id/nav_dar"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-        </menu>
-    </item>
-
-
-
-
-
-    <group android:checkableBehavior="single">
+    <group android:id="@+id/group_1" >
+        <item android:title="Titulooo"
+            android:id="@+id/nav_Item"
+            android:icon="@mipmap/ic_launcher" />
+        <item android:title="Batata"
+            android:id="@+id/nav_batata"
+            android:icon="@drawable/ic_search_black_24dp" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_2">
+        <menu />
         <item
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_grades"
@@ -35,7 +31,8 @@
             android:title="Arquivos" />
     </group>
 
-    <item android:title="Doidera">
+    <item android:title="Doidera"
+        android:id="@+id/group_2">
         <menu>
             <item
                 android:id="@+id/nav_share"
